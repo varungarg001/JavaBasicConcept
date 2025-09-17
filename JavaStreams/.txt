@@ -1,0 +1,1 @@
+why java8 -> minimal code, functional programming, lambda expression

@@ -1,0 +1,5 @@
+1 - if we create an array using new keyword then we create an array with size and we cannot increase or decrease its size.
+
+2 - searching and sorting in array is expensive means it sort and traverse list in linear time
+
+3 - we cannot have a array of having items of multiple data types.
