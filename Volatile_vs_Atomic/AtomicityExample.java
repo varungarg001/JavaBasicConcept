@@ -9,10 +9,12 @@ class SharedObj {
 
     public void increment() {
         counter.incrementAndGet();
+        // counter++;
     }
 
     public int getCounterInfo(){
         return counter.get();
+        // return counter;
     }
 
 }

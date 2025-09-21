@@ -35,7 +35,7 @@ public class arrayOfObject {
         // System.out.println(arr[0].name);
 
         for (student i : arr) {
-            if (i.name == "Varun") {
+            if (i.name.equals("Varun")) {
                 System.out.println("Name: "+i.name);
                 System.out.println("Roll No: "+i.roll_no);
                 System.out.println("Marks: "+i.marks);

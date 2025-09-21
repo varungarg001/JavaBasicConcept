@@ -9,7 +9,7 @@ class SharedResource {
     }
 
     public void isFlagTrue() {
-        while (!flag) {   // when a thread use to store the value in it's own cache memory to make things memory efficient so if the value of that variable changes it doesnot chane it's value so to make thread doesnot stored the variable in the cache we use 'volatile' keyword.
+        while (!flag) {   // when a thread use to store the value in it's own cache memory to make things memory efficient so if the value of that variable changes it doesnot change it's value so to make thread doesnot stored the variable in the cache we use 'volatile' keyword.
             // do nothing
         }
 

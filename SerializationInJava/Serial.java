@@ -10,17 +10,16 @@ public class Serial {
 
         Student student = new Student("Ankit Tiwari", 21, "ankit@gmailc.com", "lucknow");
         
-        FileOutputStream fos = new FileOutputStream("object.txt");
+        // FileOutputStream fos = new FileOutputStream("object.txt");
 
 
-        ObjectOutputStream oos = new ObjectOutputStream(fos);
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("object.txt"));
 
         // how to serialize
 
         oos.writeObject(student);
 
         oos.close();
-        fos.close();
 
         System.out.println("Object stated is transferred to file object.txt");
     }

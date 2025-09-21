@@ -1,6 +1,6 @@
 package Generics.GenericClass;
 
-public class Box<T> { // and we set bounderies like it can only accept the integer value like that
+public class Box<T> {
 
     private T value;
 

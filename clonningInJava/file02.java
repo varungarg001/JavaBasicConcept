@@ -2,7 +2,7 @@ package clonningInJava;
 
 class CloneTest implements Cloneable {
     int a;
-    CloneTest makeClone() {
+    public CloneTest makeClone() {
         try{
             return (CloneTest)super.clone();
         } catch (Exception e) {

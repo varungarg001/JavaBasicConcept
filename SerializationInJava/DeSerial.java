@@ -14,6 +14,7 @@ public class DeSerial {
             
 
             student.display();
+            System.out.println(student.getAge());
 
             ois.close();
             fis.close();

@@ -12,7 +12,7 @@ enum Day {
     private String lower;
 
     private Day(String lower) {
-        System.out.println("constructor");
+        System.out.println("constructor "+this.name());
         this.lower = lower;
     }
     

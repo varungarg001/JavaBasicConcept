@@ -24,11 +24,11 @@ public class file01 {
         System.out.println("value of a for object c2: " + c2.getValue());
         
         System.out.println("After changing the value: ");
-        c1.setValue(45);
+        c2.setValue(45);
         System.out.println("value of a for object c1: " + c1.getValue());
         System.out.println("value of a for object c2: " + c2.getValue());
 
-        // Change in value of one object leads to change in value of objectwhich clones the first object
+        // Change in value of one object leads to change in value of object which clones the first object
 
     }
 }
