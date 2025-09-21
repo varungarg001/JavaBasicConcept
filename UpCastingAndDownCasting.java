@@ -12,9 +12,9 @@ class child extends parent {
 
 public class UpCastingAndDownCasting {
     public static void main(String[] args) {
-        parent p = new child();
+        parent p = new child();   // upcasting 
         p.show1();
-        child p1 = (child) p;
+        child p1 = (child) p;   // downcasting
         p1.show2();
         // p1.show1();
     }
